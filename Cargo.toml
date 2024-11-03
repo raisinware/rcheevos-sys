@@ -1,0 +1,11 @@
+[package]
+name = "rcheevos-sys"
+version = "0.1.0"
+edition = "2021"
+links = "rcheevos"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.70.1"
+cc = "1.1.31"
